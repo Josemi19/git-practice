@@ -16,6 +16,8 @@ git checkout nombre_rama # Cambiarme a una rama nombre_rama
 git checkout -b nombre_rama # -> Creo una rama nombre_rama
 ```
 
+> Cuando creas una rama la creas a partir de donde estas parado
+
 ## Merge de ramas
 
 Un merge es la union de una rama x en un commit x hacia otra rama x en un commit x
