@@ -27,3 +27,24 @@ git checkout rama_a_donde_quiero_mergear # cambiarme a la rama donde quiero los 
 
 git merge nombre_de_la_rama_donde_Estan_los_cambios # Se une la rama nombre_... a rama_a_donde quieres
 ```
+
+## Trabajando con github
+
+El primer paso para contectar nuestro repositorio local con github es crear un repositorio en github.com
+
+Luego agregar un origen a nuestro repositorio Local
+
+```sh
+# Para agregar un remoto nuevo se corre el comando
+git remote add nombre_remoto # origin -> El punto de partida
+
+git remote add origin link/https_o_ssh
+```
+
+```sh
+git remote -v
+"
+origin  git@github.com:olaracode/git-practice.git (fetch) // Es el permiso de jalar
+origin  git@github.com:olaracode/git-practice.git (push) // Es el permiso de empujar
+"
+```
